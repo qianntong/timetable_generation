@@ -33,13 +33,14 @@ def generate_train_text(row, base_text):
     # Train Symbol
     text = re.sub(r"Train symbol:\s*\S+", f"Train symbol: {row['Train Symbol']}", text)
 
-    # Start Day
+    # Start Day & Start Day
     text = re.sub(r"\b\d{1,2}:\d{2}(:\d{2})?(AM|PM)?\b", f"{row['Scheduled Departure']}", text, count=1)
 
     # Comment (Eastbound Local / Westbound Local)
     text = re.sub(r"Eastbound Local|Westbound Local|Local", f"{row['Comment']}", text)
 
     return text
+
 
 for _, row in df.iterrows():
     network = row["Network"]
