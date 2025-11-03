@@ -46,7 +46,6 @@ for _, row in df.iterrows():
     network = row["Network"]
     symbol = row["Train Symbol"]
 
-    # todo: which is the unit of output dictionary?
     output_path = OUTPUT_DIR / f"{network}" / f"{symbol}"
     output_path.mkdir(parents=True, exist_ok=True)
 
