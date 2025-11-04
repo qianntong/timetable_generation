@@ -17,26 +17,36 @@ heading_text = HEADING_TEMPLATE.read_text(encoding="utf-8")
 eb_text = EB_TEMPLATE.read_text(encoding="utf-8")
 wb_text = WB_TEMPLATE.read_text(encoding="utf-8")
 
+
 def format_departure(start_day, sched_time):
     """
     Format the departure time:
         - If Start Day = 0: output format 'HH:MM:SS'
         - If Start Day > 0: output format 'DD:HH:MM:SS'
     """
+    # Handle datetime or timestamp directly
     if isinstance(sched_time, (datetime, pd.Timestamp)):
         hh, mm = sched_time.hour, sched_time.minute
+
     else:
         sched_time = str(sched_time).strip()
-        try:
-            if "AM" in sched_time.upper() or "PM" in sched_time.upper():
-                t = datetime.strptime(sched_time, "%I:%M %p")
+        if " " in sched_time and sched_time.count(":") == 2:
+            try:
+                t = pd.to_datetime(sched_time)
                 hh, mm = t.hour, t.minute
-            else:
-                parts = sched_time.split(":")
-                hh = int(parts[0])
-                mm = int(parts[1]) if len(parts) > 1 else 0
-        except Exception:
-            raise ValueError(f"Invalid time format: {sched_time}")
+            except Exception:
+                pass
+        else:
+            try:
+                if "AM" in sched_time.upper() or "PM" in sched_time.upper():
+                    t = datetime.strptime(sched_time, "%I:%M %p")
+                    hh, mm = t.hour, t.minute
+                else:
+                    parts = sched_time.split(":")
+                    hh = int(parts[0])
+                    mm = int(parts[1]) if len(parts) > 1 else 0
+            except Exception:
+                raise ValueError(f"Invalid time format: {sched_time}")
 
     time_str = f"{hh:02d}:{mm:02d}:00"
     if start_day > 0:
