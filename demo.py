@@ -49,8 +49,16 @@ def format_departure(start_day, sched_time):
                 raise ValueError(f"Invalid time format: {sched_time}")
 
     time_str = f"{hh:02d}:{mm:02d}:00"
+    # if start_day > 0:
+    #     time_str = f"\s{0,3}{start_day:02d}:{time_str}"
     if start_day > 0:
         time_str = f"{start_day:02d}:{time_str}"
+        if start_day >= 1:
+            if time_str.startswith("   "):
+                time_str = time_str[3:]
+            else:
+                time_str = time_str.lstrip()
+
     return time_str
 
 
@@ -66,11 +74,10 @@ def build_train_block(row, template):
     text = re.sub(r"Eastbound Local|Westbound Local|Local", f"{row['Comment']}", text)
     dep_time = format_departure(int(row['Start Day']), str(row['Scheduled Departure']))
 
-
+    # text = re.sub(r"\b\d{1,2}:\d{2}:\d{2}N?\b", dep_time, text)
     pattern = re.compile(r"(Scheduled\s+Departure[^\n]*?)" r"(\b\d{1,2}:\d{2}:\d{2}(?:N)?\b|FLOAT)",flags=0)
     text = pattern.sub(lambda m: m.group(1) + dep_time, text, count=1)
 
-    # text = re.sub(r"\b\d{1,2}:\d{2}:\d{2}N?\b", dep_time, text)
     return text
 
 
