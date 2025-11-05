@@ -65,7 +65,12 @@ def build_train_block(row, template):
     text = re.sub(r"Train symbol:\s*\S+", f"Train symbol: {row['Train Symbol']}", text)
     text = re.sub(r"Eastbound Local|Westbound Local|Local", f"{row['Comment']}", text)
     dep_time = format_departure(int(row['Start Day']), str(row['Scheduled Departure']))
-    text = re.sub(r"\b\d{1,2}:\d{2}:\d{2}N?\b", dep_time, text)
+
+
+    pattern = re.compile(r"(Scheduled\s+Departure[^\n]*?)" r"(\b\d{1,2}:\d{2}:\d{2}(?:N)?\b|FLOAT)",flags=0)
+    text = pattern.sub(lambda m: m.group(1) + dep_time, text, count=1)
+
+    # text = re.sub(r"\b\d{1,2}:\d{2}:\d{2}N?\b", dep_time, text)
     return text
 
 

@@ -1,0 +1,1071 @@
+ --------------------------------------- R T C   77W    T R A I N    F I L E -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LEB01                Eastbound Local                                                                                                                                                                                                                    
+                   Train type: Eastbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:       S0-T02               True initial head-end node:       S0-T02
+        Initial tail-end node:       S0-TO1               True initial tail-end node:       S0-TO1
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       S0-T02         FLOAT       1:00:00N            0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP0247.450-1         FLOAT         FLOAT             0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LEB02                Eastbound Local                                                                                                                                                                                                                    
+                   Train type: Eastbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:       S0-T02               True initial head-end node:       S0-T02
+        Initial tail-end node:       S0-TO1               True initial tail-end node:       S0-TO1
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       S0-T02         FLOAT       1:00:00N            0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP0247.450-1         FLOAT         FLOAT             0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LEB03                Eastbound Local                                                                                                                                                                                                                    
+                   Train type: Eastbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:       S0-T02               True initial head-end node:       S0-T02
+        Initial tail-end node:       S0-TO1               True initial tail-end node:       S0-TO1
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       S0-T02         FLOAT       1:00:00N            0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP0247.450-1         FLOAT         FLOAT             0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LEB04                Eastbound Local                                                                                                                                                                                                                    
+                   Train type: Eastbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:       S0-T02               True initial head-end node:       S0-T02
+        Initial tail-end node:       S0-TO1               True initial tail-end node:       S0-TO1
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       S0-T02         FLOAT       1:00:00N            0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP0247.450-1         FLOAT         FLOAT             0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LEB05                Eastbound Local                                                                                                                                                                                                                    
+                   Train type: Eastbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:       S0-T02               True initial head-end node:       S0-T02
+        Initial tail-end node:       S0-TO1               True initial tail-end node:       S0-TO1
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       S0-T02         FLOAT       1:00:00N            0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP0247.450-1         FLOAT         FLOAT             0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LEB06                Eastbound Local                                                                                                                                                                                                                    
+                   Train type: Eastbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:       S0-T02               True initial head-end node:       S0-T02
+        Initial tail-end node:       S0-TO1               True initial tail-end node:       S0-TO1
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       S0-T02         FLOAT       1:00:00N            0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP0247.450-1         FLOAT         FLOAT             0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LEB07                Eastbound Local                                                                                                                                                                                                                    
+                   Train type: Eastbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:       S0-T02               True initial head-end node:       S0-T02
+        Initial tail-end node:       S0-TO1               True initial tail-end node:       S0-TO1
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       S0-T02         FLOAT       1:00:00N            0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP0247.450-1         FLOAT         FLOAT             0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LEB08                Eastbound Local                                                                                                                                                                                                                    
+                   Train type: Eastbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:       S0-T02               True initial head-end node:       S0-T02
+        Initial tail-end node:       S0-TO1               True initial tail-end node:       S0-TO1
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       S0-T02         FLOAT       1:00:00N            0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP0247.450-1         FLOAT         FLOAT             0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LEB09                Eastbound Local                                                                                                                                                                                                                    
+                   Train type: Eastbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:       S0-T02               True initial head-end node:       S0-T02
+        Initial tail-end node:       S0-TO1               True initial tail-end node:       S0-TO1
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       S0-T02         FLOAT       1:00:00N            0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP0247.450-1         FLOAT         FLOAT             0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LEB10                Eastbound Local                                                                                                                                                                                                                    
+                   Train type: Eastbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:       S0-T02               True initial head-end node:       S0-T02
+        Initial tail-end node:       S0-TO1               True initial tail-end node:       S0-TO1
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       S0-T02         FLOAT       1:00:00N            0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP0247.450-1         FLOAT         FLOAT             0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LEB11                Eastbound Local                                                                                                                                                                                                                    
+                   Train type: Eastbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:       S0-T02               True initial head-end node:       S0-T02
+        Initial tail-end node:       S0-TO1               True initial tail-end node:       S0-TO1
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       S0-T02         FLOAT       1:00:00N            0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP0247.450-1         FLOAT         FLOAT             0     100       0   14930    5725     1    13     E     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ 
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LWB01                Westbound Local                                                                                                                                                                                                                    
+                   Train type: Westbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:      S22-TO1               True initial head-end node:      S22-TO1
+        Initial tail-end node:      S22-TO2               True initial tail-end node:      S22-TO2
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      S22-TO1         FLOAT       2:00:00N            0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP00-1.200-1         FLOAT         FLOAT             0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ 
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LWB02                Westbound Local                                                                                                                                                                                                                    
+                   Train type: Westbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:      S22-TO1               True initial head-end node:      S22-TO1
+        Initial tail-end node:      S22-TO2               True initial tail-end node:      S22-TO2
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      S22-TO1         FLOAT       2:00:00N            0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP00-1.200-1         FLOAT         FLOAT             0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ 
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LWB03                Westbound Local                                                                                                                                                                                                                    
+                   Train type: Westbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:      S22-TO1               True initial head-end node:      S22-TO1
+        Initial tail-end node:      S22-TO2               True initial tail-end node:      S22-TO2
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      S22-TO1         FLOAT       2:00:00N            0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP00-1.200-1         FLOAT         FLOAT             0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ 
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LWB04                Westbound Local                                                                                                                                                                                                                    
+                   Train type: Westbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:      S22-TO1               True initial head-end node:      S22-TO1
+        Initial tail-end node:      S22-TO2               True initial tail-end node:      S22-TO2
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      S22-TO1         FLOAT       2:00:00N            0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP00-1.200-1         FLOAT         FLOAT             0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ 
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LWB05                Westbound Local                                                                                                                                                                                                                    
+                   Train type: Westbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:      S22-TO1               True initial head-end node:      S22-TO1
+        Initial tail-end node:      S22-TO2               True initial tail-end node:      S22-TO2
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      S22-TO1         FLOAT       2:00:00N            0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP00-1.200-1         FLOAT         FLOAT             0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ 
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LWB06                Westbound Local                                                                                                                                                                                                                    
+                   Train type: Westbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:      S22-TO1               True initial head-end node:      S22-TO1
+        Initial tail-end node:      S22-TO2               True initial tail-end node:      S22-TO2
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      S22-TO1         FLOAT       2:00:00N            0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP00-1.200-1         FLOAT         FLOAT             0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ 
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LWB07                Westbound Local                                                                                                                                                                                                                    
+                   Train type: Westbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:      S22-TO1               True initial head-end node:      S22-TO1
+        Initial tail-end node:      S22-TO2               True initial tail-end node:      S22-TO2
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      S22-TO1         FLOAT       2:00:00N            0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP00-1.200-1         FLOAT         FLOAT             0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ 
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LWB08                Westbound Local                                                                                                                                                                                                                    
+                   Train type: Westbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:      S22-TO1               True initial head-end node:      S22-TO1
+        Initial tail-end node:      S22-TO2               True initial tail-end node:      S22-TO2
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      S22-TO1         FLOAT       2:00:00N            0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP00-1.200-1         FLOAT         FLOAT             0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ 
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LWB09                Westbound Local                                                                                                                                                                                                                    
+                   Train type: Westbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:      S22-TO1               True initial head-end node:      S22-TO1
+        Initial tail-end node:      S22-TO2               True initial tail-end node:      S22-TO2
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      S22-TO1         FLOAT       2:00:00N            0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP00-1.200-1         FLOAT         FLOAT             0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ 
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LWB10                Westbound Local                                                                                                                                                                                                                    
+                   Train type: Westbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:      S22-TO1               True initial head-end node:      S22-TO1
+        Initial tail-end node:      S22-TO2               True initial tail-end node:      S22-TO2
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      S22-TO1         FLOAT       2:00:00N            0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP00-1.200-1         FLOAT         FLOAT             0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
+ 
+ ===================================================v=================================================================================================================================================================================================================================v=============================================================================================================================================================================================================================================
+                 Train symbol: LWB11                Westbound Local                                                                                                                                                                                                                    
+                   Train type: Westbound Local                                         Caboose: NO               True data: NO          Display units: E
+    Initial priority (0-9999): 5000  Min: 1000  Max: 9000          Suppress messages: NO 
+            Week  1 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  2 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  3 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  4 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  5 Frequency: Sun Mon Tue Wed Thu Fri Sat
+            Week  6 Frequency: Sun Mon Tue Wed Thu Fri Sat
+        Initial head-end node:      S22-TO1               True initial head-end node:      S22-TO1
+        Initial tail-end node:      S22-TO2               True initial tail-end node:      S22-TO2
+      Linked at origin to the:                                                              
+ Linked at destination to the:                                                              
+  Random early departure time:     1:00 (DD:HH:MM) YES       Fuel calibration factor: 1.000
+   Random late departure time:     1:00 (DD:HH:MM) YES
+    Max random dwell increase:    50:00 (HH:MM:SS) NO      Max random dwell decrease:     0:00 (HH:MM:SS) NO      Dwell randomization trigger:    10:00 (HH:MM:SS) 
+       Initial head-end speed:  25 MPH                                  Initial fuel:   4000.0 GAL       Initial charge:        0.0 KW-Hr
+        Maximum coupler force:  430000 POUNDS 
+         Include in timetable: YES
+  Timetable sort key (0-1000):    0                        Crew maximum service time: 12:00 (HH:MM)
+    Apply adjacent link logic: YES                         Initial crew service time:     0 (HH:MM)
+    Conflict dump level (0-9):  0  NO              Crew duty time prior to departure:     0 (HH:MM)
+         TPC dump level (0-9):  0   low=       0   high= 9999999   level= 0
+        Rail condition (1-10):  0                     Friction brake release seconds:  0.00 (SS.ss)
+     Operator handling (1-10):  5   Randomization: NO      Dwell caps by node if > 0: NO 
+                   Propulsion: DEL                     Alternate acceptability class: Freight                         
+        Perpetuation template: NO 
+                      Enabled: YES    Trip number:     0                      Pusher: NO          Return pushers: YES     Pusher debug: 0 
+    Roll up initial tail node: YES     Autonomous: NO 
+ Show train walk computations: NO            Manual switch handling flag: Restore and walk as needed                        
+  Coast to reduce train speed: YES                             Include in statistics: YES
+  Yard if long mainline dwell: YES                             Moving block equipped: NO          eRadio-block equipped: NO 
+          Equipment set color:  0                               Equipment set number:     0
+  Exclude from OTP statistics: NO       Measure OTP only when arrival time specified: NO          Show OTP computations: NO 
+             Maintenance shop:                                    Fleet count period:    
+    Show consist computations: NO         ATC: NO             Bad sit location fatal: YES
+                 PTC equipped: NO     TD tail: NO                 Signal wake report: NO              TD aspect display: YES
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            Maximum  -------------------------------Departing Locomotive Units-------------------------------                             Arriving                              Prtctd    Alt                                                                                            Packed       Packed
+                  Scheduled     Scheduled     Minimum    --Combined Departing Consist--  Crew        Direct Segment   #   #  T               #   #  T               #   #  T               #   #  T                                       at Event       Minimum      Maximum    Route    Node                                                                                        Requirement  Restriction                                                                  -Connection day thresholds-       Flag  -Passengers-
+  Route Node       Arrival      Departure    Dwell Time   Loads  Empties   Tons    Feet    #   Color  -ion   Speed   On  DH  P  Type 1      On  DH  P  Type 2      On  DH  P  Type 3      On  DH  P  Type 4      Hold for Train Symbol   Node Seq #     Hold Time    Hold Time    Node     OK    Set-out block 1       Set-out block 2       Pick-up block 1       Pick-up block 2        Flag         Flag           Split train           Consist            Merge train      HLD SPT MRG SO1 SO2 PU1 PU2   OTP Stop    on    off
+ xxxxxxxxxxxx---DD:HH:MM:SSx--DD:HH:MM:SSx--DD:HH:MM:SSx----xxx-----xxx---xxxxx---xxxxx---xxx----xx-----x-----xxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xx--xx--x--xxxxxxxx----xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxx--DD:HH:MM:SS--DD:HH:MM:SS------x-------x--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx---xxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxx---xxxxxxxxxxxxxxxxxxxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx---xxx---x---xxxxx--xxxxx
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      S22-TO1         FLOAT       2:00:00N            0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+ MP00-1.200-1         FLOAT         FLOAT             0     100       0   14930    5725     1    12     W     200     3   0  F  SD70MAC      0   0                  0   0                  0   0                 No train to hold for              0            0     12:00:00      N       Y                                                                                                   0            0                                                                    0   0   0   0   0   0   0     0   P       0      0
+
+
