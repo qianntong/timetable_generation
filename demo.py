@@ -49,8 +49,6 @@ def format_departure(start_day, sched_time):
                 raise ValueError(f"Invalid time format: {sched_time}")
 
     time_str = f"{hh:02d}:{mm:02d}:00"
-    # if start_day > 0:
-    #     time_str = f"\s{0,3}{start_day:02d}:{time_str}"
     if start_day > 0:
         time_str = f"{start_day:02d}:{time_str}"
         if start_day >= 1:
@@ -76,7 +74,7 @@ def build_train_block(row, template):
     # departure time replacement
     dep_time = format_departure(int(row['Start Day']), str(row['Scheduled Departure']))
 
-    print(f"\n=== Debug for Train {row['Train Symbol']} ===")
+    print(f"\n=== Train {row['Train Symbol']} ===")
     print(f"Target departure time: {dep_time}")
     pattern = re.compile(
         r'(Arrival\s+Departure\s+Dwell Time[^\n]*\n[^\n]*\n\s*-+[^\n]*\n\s+\S+\s+)(\d{1,2}:\d{2}:\d{2}N?|FLOAT)(\s+)(\d{1,2}:\d{2}:\d{2}N?|FLOAT)',
@@ -87,11 +85,11 @@ def build_train_block(row, template):
     if match:
         print(f"Pattern matched!")
         print(f"Column 2 (Arrival): '{match.group(2)}'")
-        print(f"Column 3 (Departure, old): '{match.group(4)}'")
-        print(f"Replacing Departure with: '{dep_time}'")
+        print(f"Column 3 (Departure, template): '{match.group(4)}'")
+        print(f"Replacing Departure with schedule row: '{dep_time}'")
         text = pattern.sub(lambda m: m.group(1) + m.group(2) + m.group(3) + dep_time, text, count=1)
     else:
-        print(f"✗ Pattern did not match")
+        print(f"Pattern did not match")
 
     return text
 
