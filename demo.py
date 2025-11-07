@@ -64,7 +64,7 @@ def build_train_block(row, template):
     """
     Replacements:
         - Train symbol
-        - Comment (direction)
+        - Comment
         - Scheduled Departure
     """
     text = template
@@ -84,8 +84,7 @@ def build_train_block(row, template):
     match = pattern.search(text)
     if match:
         print(f"Pattern matched!")
-        print(f"Column 2 (Arrival): '{match.group(2)}'")
-        print(f"Column 3 (Departure, template): '{match.group(4)}'")
+        print(f"Departure time, Template, Column 3: '{match.group(4)}'")
         print(f"Replacing Departure with schedule row: '{dep_time}'")
         text = pattern.sub(lambda m: m.group(1) + m.group(2) + m.group(3) + dep_time, text, count=1)
     else:
