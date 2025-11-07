@@ -119,4 +119,4 @@ for input_file in INPUT_DIR.glob("*.xlsx"):
             f.write(merged_text)
         print(f"Generated {output_path} ({len(group_df)} trains)")
 
-print("Done! All TRAIN files generated successfully.")
+print("\nDone! All TRAIN files generated successfully.")
