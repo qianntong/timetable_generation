@@ -72,11 +72,26 @@ def build_train_block(row, template):
     text = template
     text = re.sub(r"Train symbol:\s*\S+", f"Train symbol: {row['Train Symbol']}", text)
     text = re.sub(r"Eastbound Local|Westbound Local|Local", f"{row['Comment']}", text)
+
+    # departure time replacement
     dep_time = format_departure(int(row['Start Day']), str(row['Scheduled Departure']))
 
-    # text = re.sub(r"\b\d{1,2}:\d{2}:\d{2}N?\b", dep_time, text)
-    pattern = re.compile(r"(Scheduled\s+Departure[^\n]*?)" r"(\b\d{1,2}:\d{2}:\d{2}(?:N)?\b|FLOAT)",flags=0)
-    text = pattern.sub(lambda m: m.group(1) + dep_time, text, count=1)
+    print(f"\n=== Debug for Train {row['Train Symbol']} ===")
+    print(f"Target departure time: {dep_time}")
+    pattern = re.compile(
+        r'(Arrival\s+Departure\s+Dwell Time[^\n]*\n[^\n]*\n\s*-+[^\n]*\n\s+\S+\s+)(\d{1,2}:\d{2}:\d{2}N?|FLOAT)(\s+)(\d{1,2}:\d{2}:\d{2}N?|FLOAT)',
+        flags=re.IGNORECASE
+    )
+
+    match = pattern.search(text)
+    if match:
+        print(f"Pattern matched!")
+        print(f"Column 2 (Arrival): '{match.group(2)}'")
+        print(f"Column 3 (Departure, old): '{match.group(4)}'")
+        print(f"Replacing Departure with: '{dep_time}'")
+        text = pattern.sub(lambda m: m.group(1) + m.group(2) + m.group(3) + dep_time, text, count=1)
+    else:
+        print(f"✗ Pattern did not match")
 
     return text
 
