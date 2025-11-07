@@ -69,7 +69,7 @@ def build_train_block(row, template):
     """
     text = template
     text = re.sub(r"Train symbol:\s*\S+", f"Train symbol: {row['Train Symbol']}", text)
-    text = re.sub(r"Eastbound Local|Westbound Local|Local", f"{row['Comment']}", text)
+    # text = re.sub(r"Eastbound Local|Westbound Local|Local", f"{row['Comment']}", text)
 
     # departure time replacement
     dep_time = format_departure(int(row['Start Day']), str(row['Scheduled Departure']))
